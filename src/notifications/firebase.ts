@@ -2,7 +2,7 @@
 // import { getMessaging, getToken } from "firebase/messaging";
 
 // const firebaseConfig = {
-//     apiKey: "AIzaSyDY31KPbXbkD_RbitzQcG51ajAE82PXvRU",
+//     apiKey: "",
 //     authDomain: "peoplepluspress-cd965.firebaseapp.com",
 //     projectId: "peoplepluspress-cd965",
 //     storageBucket: "peoplepluspress-cd965.appspot.com",
@@ -18,7 +18,7 @@
 // //     const permission = await Notification.requestPermission();
 // //     if (permission === "granted") {
 // //         const token = await getToken(messaging, {
-// //             vapidKey: "BHrgSZRqOQn94Q_CHZagVI7ytHt5-LpmW9iQKVFq77CZNoPf2VFp2I4zyumsH29clp7YwWH6qA0mEAlkclycj1M"
+// //             vapidKey: ""
 // //         })
 // //     }
 // // }
@@ -29,7 +29,7 @@
 //       const permission = await Notification.requestPermission();
 //       if (permission === "granted") {
 //         const token = await getToken(messaging, {
-//           vapidKey: "BHrgSZRqOQn94Q_CHZagVI7ytHt5-LpmW9iQKVFq77CZNoPf2VFp2I4zyumsH29clp7YwWH6qA0mEAlkclycj1M"
+//           vapidKey: ""
 //         });
 //         return token;
 //       } else {
