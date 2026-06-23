@@ -1,0 +1,66 @@
+import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
+
+// Example Article Component
+const NewsArticle = ({ articleId }) => {
+  const [article, setArticle] = useState(null);
+
+  useEffect(() => {
+    // Fetch article details from an API or state management system
+    fetchArticleDetails(articleId);
+  }, [articleId]);
+
+  const fetchArticleDetails = async (id) => {
+    // Replace with actual API call
+    const response = await fetch(`https://api.peopleplus.press/articles/${id}`);
+    const data = await response.json();
+    setArticle(data);
+  };
+
+  // If data is still loading
+  if (!article) return <p>Loading...</p>;
+
+  // Dynamic Schema for NewsArticle
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": article.title,
+    "datePublished": article.publishedDate,
+    "dateModified": article.modifiedDate || article.publishedDate,
+    "author": {
+      "@type": "Person",
+      "name": article.author.name
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "People Plus",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://peopleplus.press/logo.png", // Replace with the actual logo URL
+        "width": 600,
+        "height": 60
+      }
+    },
+    "image": article.imageUrl,
+    "description": article.description
+  };
+
+  return (
+    <div>
+      <Helmet>
+        <title>{article.title} - People Plus</title>
+        <meta name="description" content={article.description} />
+        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+      </Helmet>
+
+      <article>
+        <h1>{article.title}</h1>
+        <img src={article.imageUrl} alt={article.title} />
+        <p>{article.content}</p>
+        <p>By: {article.author.name}</p>
+      </article>
+    </div>
+  );
+};
+
+export default NewsArticle;

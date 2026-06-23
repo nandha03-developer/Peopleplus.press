@@ -1,0 +1,203 @@
+.backButton {
+    position: absolute;
+    z-index: 2;
+    background-color: #eb0254;
+    color: white;
+    border: 2px solid #eb0254;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    // Media query for screens between 0px and 575px
+    @media (min-width: 0px) and (max-width: 575px) {
+        display: none;
+    }
+
+    @media (min-width: 574px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        left: 18%;
+    }
+
+    // Media query for screens between 992px and 1199px
+    @media (min-width: 992px) and (max-width: 1199px) {
+        left: 30%;
+    }
+
+    // Media query for screens between 1200px and 1399px
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        left: 30%;
+    }
+
+    // Media query for screens 1400px and up
+    @media (min-width: 1400px) {
+        left: 30%;
+    }
+
+    .preicon{
+       
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 28px;
+    }
+
+    // Media query for screens between 992px and 1199px
+    @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 28px;
+    }
+
+    // Media query for screens between 1200px and 1399px
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        font-size: 28px;
+    }
+
+    // Media query for screens 1400px and up
+    @media (min-width: 1400px) {
+        font-size: 30px;
+    }
+    }
+
+}
+
+.storyContainer {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+
+    // Media query for screens between 0px and 575px
+    @media (min-width: 0px) and (max-width: 575px) {
+        width: 100%;
+    }
+
+    // Media query for screens between 768px and 991px
+    @media (min-width: 768px) and (max-width: 991px) {
+        width: 50%;
+    }
+
+    // Media query for screens between 992px and 1199px
+    @media (min-width: 992px) and (max-width: 1199px) {
+        width: 30%;
+    }
+
+    // Media query for screens between 1200px and 1399px
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        width: 30%;
+    }
+
+    // Media query for screens 1400px and up
+    @media (min-width: 1400px) {
+        width: 28%;
+    }
+
+    .closeButton {
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+
+        // // Media query for screens between 0px and 575px
+        // @media (min-width: 0px) and (max-width: 575px) {
+        //     font-size: 15px;
+        // }
+
+        // // Media query for screens between 576px and 767px
+        // @media (min-width: 576px) and (max-width: 767px) {
+        //     font-size: 20px; // Font size for small screens
+        // }
+
+        // // Media query for screens between 768px and 991px
+        // @media (min-width: 768px) and (max-width: 991px) {
+        //     font-size: 22px; // Font size for medium screens
+        // }
+
+        // // Media query for screens between 992px and 1199px
+        // @media (min-width: 992px) and (max-width: 1199px) {
+        //     font-size: 22px; // Font size for large screens
+        // }
+
+        // // Media query for screens between 1200px and 1399px
+        // @media (min-width: 1200px) and (max-width: 1399px) {
+        //     font-size: 22px; // Font size for extra large screens
+        // }
+
+        // // Media query for screens 1400px and up
+        // @media (min-width: 1400px) {
+        //     font-size: 26px; // Font size for double extra large screens
+        // }
+    }
+
+    .title{
+        @media (min-width: 1400px) {
+           font-size: 22px;
+        }
+    }
+}
+
+
+.nextButton {
+    position: absolute;
+    z-index: 2;
+    background-color: #eb0254;
+    color: white;
+    border: 2px solid #eb0254;
+    margin: 11px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    // Media query for screens between 0px and 575px
+    @media (min-width: 0px) and (max-width: 575px) {
+        display: none;
+    }
+
+    @media (min-width: 574px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        right: 18%;
+    }
+
+    // Media query for screens between 992px and 1199px
+    @media (min-width: 992px) and (max-width: 1199px) {
+        right: 30%;
+    }
+
+    // Media query for screens between 1200px and 1399px
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        right: 30%;
+    }
+
+    // Media query for screens 1400px and up
+    @media (min-width: 1400px) {
+        right: 30%;
+    }
+
+    .preicon{
+       
+        @media (min-width: 768px) and (max-width: 991px) {
+            font-size: 28px;
+        }
+    
+        // Media query for screens between 992px and 1199px
+        @media (min-width: 992px) and (max-width: 1199px) {
+            font-size: 28px;
+        }
+    
+        // Media query for screens between 1200px and 1399px
+        @media (min-width: 1200px) and (max-width: 1399px) {
+            font-size: 28px;
+        }
+    
+        // Media query for screens 1400px and up
+        @media (min-width: 1400px) {
+            font-size: 30px;
+        }
+        }
+
+}
+

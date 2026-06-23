@@ -1,0 +1,145 @@
+/***
+ Template Name: LaabamOne
+ Description: Multipurpose Agency HTML template
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+==============================
+TABLE CONTENT
+ Import Google Fonts
+ Include Third Party CSS Library
+ GENERAL
+ HEADER
+ Offcanvas Sidebar
+ Search form
+ Main header
+ Mega menu
+ Header layouts
+ Page layouts
+ Pagination
+ Breadcrumb
+ CATEGORY PAGES
+ SINGLE POST
+ Author box
+ comment
+ Post share social
+ WP STYPE
+ Custom amine
+***/
+@import url(https://fonts.bunny.net/css?family=chivo:400,700|noto-sans:400,700);
+@import url(../css/vendors/normalize.css);
+@import url(../css/vendors/bootstrap.min.css);
+@import url(../css/vendors/uicons-regular-rounded.css);
+@import url(../css/vendors/swiper-bundle.min.css);
+@import url(../css/vendors/magnific-popup.css);
+@import url(../css/vendors/select2.min.css);
+@import url(../css/vendors/perfect-scrollbar.css);
+@import url(../css/vendors/animate.min.css);
+@import url(../css/vendors/slick.css);
+@font-face {
+  font-family: "uicons-regular-rounded";
+  src: url("../fonts/uicons/uicons-regular-rounded.woff2") format("woff2"),
+    url("../fonts/uicons/uicons-regular-rounded.woff") format("woff");
+    /* url("../fonts/uicons/uicons-regular-rounded.eot#iefix")
+      format("embedded-opentype"), */
+}
+
+.box-signup {
+    display: table;
+    table-layout: fixed;
+    margin: auto;
+    width: 100%;
+  }
+  .box-signup .box-form-signup .box-form-otp {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 45px;
+    box-shadow: 0px 47px 65px rgba(21, 28, 38, 0.1);
+    
+  }
+  
+  .box-signup .chkbox {
+    float: left;
+    margin: -1px 10px 0px 0px;
+    width: 18px;
+    height: 18px;
+  }
+  .box-signup .form-group input.form-control {
+    background: #fff;
+    border: 1px solid #eee;
+    height: 56px;
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    border-radius: 4px;
+    color: #101828;
+  }
+  .box-signup .form-group input.input-green-bd {
+    border: 2px solid #006d77;
+  }
+  .box-signup .form-group input.input-with-icon {
+    padding-right: 40px;
+  }
+  .box-signup .form-field {
+    position: relative;
+  }
+  .box-signup .form-field .tag-top {
+    position: absolute;
+    top: -7px;
+    padding: 0px 5px 0px 5px;
+    left: 10px;
+    background-color: #ffffff;
+  }
+  .box-signup .form-field .icon-eye-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    background: url(../imgs/template/icons/icon-eye.svg) no-repeat center;
+    height: 24px;
+    width: 25px;
+    cursor: pointer;
+  }
+  .box-signup .form-field .icon-email-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    background: url(../imgs/template/icons/icon-email-2.svg) no-repeat center;
+    height: 24px;
+    width: 25px;
+    cursor: pointer;
+  }
+  
+  .box-reset .box-form-signup {
+    border: 1px solid #e4e7ec;
+  }
+  .box-reset .box-form-otp {
+    border: 1px solid #e4e7ec;
+  }
+  
+  
+  .form-comment .input-comment {
+    border-radius: 16px;
+    border: 2px solid #e4e7ec;
+    padding: 20px;
+    width: 100%;
+    color: #98a2b3;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    min-height: 150px;
+  }
+  .form-comment .box-agree span {
+    display: block;
+    padding-left: 25px;
+  }
+  .form-comment .box-agree input {
+    float: left;
+    margin: 5px 0px 0px 0px;
+  }
+  
+  

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /public/
+Disallow: /private/
+Disallow: /restricted/
+Disallow: /cgi-bin/
+Sitemap:
+https://www.peopleplus.press/en/sitemap.xml

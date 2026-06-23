@@ -1,0 +1,39 @@
+.currentDate{
+    color: white;
+    font-size: 13px;
+
+     // Media query for screens between 0px and 575px
+     @media (min-width: 0px) and (max-width: 575px) {
+        font-size: 13px;
+        margin-left: 0px;
+    }
+
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 13px;
+        margin-left: 0px;
+    }
+
+    // Media query for screens between 768px and 991px
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    // Media query for screens between 992px and 1199px
+    @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    // Media query for screens between 1200px and 1399px
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    // Media query for screens 1400px and up
+    @media (min-width: 1400px) {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+}

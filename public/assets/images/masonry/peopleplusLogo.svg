@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #171e2c;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c7212b;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #171e2c;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #b62025;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="45.56" cy="81.59" rx="17.31" ry="3.41"/>
+  <path class="cls-4" d="M48.97,45.69l.87-5.73c-12.28-1.62-15.11,3.47-15.11,3.47,12.51,8.34,28.14-1.04,28.14-1.04-14.25-15.98-35.96-1.22-35.96-1.22l7.64,37,.28,1.74"/>
+  <line class="cls-4" x1="34.46" y1="43.55" x2="39.67" y2="81.14"/>
+  <path class="cls-4" d="M63.39,42.39s-7.47,18.58-6.95,38.57"/>
+  <line class="cls-4" x1="49.07" y1="45.09" x2="48.8" y2="46.8"/>
+  <polygon class="cls-1" points="57.14 61.07 42.53 61.07 42.53 54.95 59.05 54.95 57.14 61.07"/>
+  <polygon class="cls-1" points="56.87 70.21 44.19 70.21 44.19 64.09 57.31 64.09 56.87 70.21"/>
+  <polygon class="cls-1" points="56.41 79.35 45.75 79.35 45.75 73.23 56.61 73.23 56.41 79.35"/>
+  <path class="cls-2" d="M25.13,38.62s24.1-17.85,39.74,2.48c0,0-17.07-42.48-39.74-2.48Z"/>
+  <ellipse class="cls-2" cx="42.53" cy="12.58" rx="7.1" ry="7.58"/>
+  <ellipse class="cls-3" cx="42.83" cy="13.06" rx="6.61" ry="7.09"/>
+</svg>
