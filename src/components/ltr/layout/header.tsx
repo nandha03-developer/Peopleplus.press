@@ -164,8 +164,8 @@ const Header = () => {
   };
 
   const getLocation = async (latitude: any, longitude: any) => {
-    const apiKey = `AIzaSyDbpm5vXbVRqlLB_d5BhInZ01MqhQtMQs4`;
-    const apiEndpoint = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${apiKey}`;
+    const apiKey = ``;
+    const apiEndpoint = ``;
     try {
       const response = await axios.get(apiEndpoint);
       const results = response.data.results;
@@ -220,7 +220,7 @@ const Header = () => {
       setAQIIcon(storedAQIIcon);  // AQI Icon data
     } else {
       // Fetch weather data from API if not in sessionStorage
-      const apiKey = "64ee8b17eb8f34f8e9e8b408354edafa"; // Your API key
+      const apiKey = ""; // Your API key
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
       const pollutionUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
       
